@@ -1,0 +1,22 @@
+:root {
+    --secondary-color: #242734;
+    --background-color: #040514;
+    --selected-color: #2166ED;
+    --text-main-color: #FFFFFF;
+
+    color: var(--text-main-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0;
+}
+
+.main {
+    flex-grow: 1;
+    background-color: var(--background-color);
+}
