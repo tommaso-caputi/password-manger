@@ -1,3 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 :root {
     --secondary-color: #242734;
     --background-color: #040514;
@@ -8,15 +22,16 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
-body {
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-    margin: 0;
+.left-footer {
+    height: 100%;
+    width: 20%;
+    background-color: var(--secondary-color);
+    float: left;
 }
 
 .main {
-    flex-grow: 1;
+    height: 100%;
+    width: 80%;
+    float: left;
     background-color: var(--background-color);
 }
